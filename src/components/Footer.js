@@ -9,37 +9,18 @@ export default function Footer() {
 		<Container>
 			<Row>
 				<Col sm={12} md={6}>
-					<h6>About</h6>
-            		<p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+					<h6>Some Advice</h6>
+					<p>Professor Sahai notes in his unofficial advice page 1 , “Set yourself a goal of understanding some system from top to bottom before you graduate. For example, you might want to know how the entire process of downloading and listening to an MP3 or OGG file works. This can be a good tool for integrating knowledge across different courses.” Since taking every EECS course may be infeasible and inefficient under the current system, we would like to provide a cocktail-party level of understanding so students can make educated decisions about which classes to explore. Even if you never take an EECS class after this one, this DeCal will be worthwhile if you enjoy learning about a variety of topics</p>
 				</Col>
 				<Col xs={6} md={3}>
-				<h6>Categories</h6>
-		            <ul class="footer-links">
-		            	<li><a href="#/c-language/">C</a></li>
-		            </ul>
+					<h6>Email</h6>
+					<p>Decal: decal[at]hkn.eecs.berrkeley.edu</p>
+					<p>General: hkn[at]hkn.eecs.berrkeley.edu</p>
 				</Col>
 				<Col xs={6} md={3}>
-				<h6>Quick Links</h6>
-		            <ul class="footer-links">
-		            	<li><a href="#/about/">About Us</a></li>
-		            </ul>
-            	</Col>
-			</Row>
-		</Container>
-		<Container>
-			<Row>
-				<Col md={8} sm={6} xs={12}>
-					<p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-			        	<a href="/#">Scanfcode</a>.
-					</p>
-				</Col>
-				<Col md={8} sm={6} xs={12}>
-					<ul className={styles.socialIcons}>
-						<li><a class="facebook" href="/#"><i class="fa fa-facebook"></i></a></li>
-						<li><a class="twitter" href="/#"><i class="fa fa-twitter"></i></a></li>
-						<li><a class="dribbble" href="/#"><i class="fa fa-dribbble"></i></a></li>
-						<li><a class="linkedin" href="/#"><i class="fa fa-linkedin"></i></a></li>   
-					</ul>
+					<h6>Our Offices</h6>
+					<p>290 Cory Hall | (510) 642-7346</p>
+					<p>345 Soda Hall | (510) 642-9952</p>
 				</Col>
 			</Row>
 		</Container>

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Lato', sans-serif;
     line-height: 140%;

@@ -4,10 +4,11 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 
 import { Officers, Weeks } from  "./data.js"
-import Footer from "./Footer.js"
 import styles from "./Sections.module.css"
+import Footer from "../components/Footer.js"
 
 export default function Sections() {
+
 	return (
 		<div className={styles.wrapper}>
 			<IntroSection />

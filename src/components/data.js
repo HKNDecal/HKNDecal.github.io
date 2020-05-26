@@ -18,6 +18,16 @@ const Officers = [
 		"img": require("../images/instructors/vidish-gupta.jpg"),
 		"name": "Vidish Gupta",
 		"site": "hkn.mu",
+	},
+	{
+		"img": require("../images/instructors/leyla-kabuli.jpg"),
+		"name": "Leyla Kabuli",
+		"site": "hkn.mu",
+	},
+	{
+		"img": require("../images/instructors/luke-mujica.jpg"),
+		"name": "Luke Mujica",
+		"site": "hkn.mu",
 	}
 ];
 

@@ -3,15 +3,17 @@ import { Card, Button } from "react-bootstrap"
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 
-import { Officers, Weeks } from  "./data.js"
+import { Officers, Weeks, About } from  "./data.js"
 import styles from "./Sections.module.css"
 import Footer from "../components/Footer.js"
+import logo from "../images/decal-logo.png"
 
 export default function Sections() {
 
 	return (
 		<div className={styles.wrapper}>
 			<IntroSection />
+			<OverviewSection />
 			<ScheduleSection />
 			<FacilitatorsSection />
 			<Footer />
@@ -23,12 +25,37 @@ export function IntroSection() {
 	return (
 		<section id="intro" className={styles.intro}>
 			<div className={styles.inner}>
-				<div className={styles.introContent}>
-					<h1>Going Down the EECS Stack</h1>
-					<p>With so many EE and CS classes at Berkeley, it is important that students know which classes best match their personal and career interests. This DeCal is offered to provide students with a broad survey of topics within EECS and a general sense of the courses and subfields within the major. We aim to cover each topic in totality, so no EE or CS experience is required.</p>
-					<Button variant="info" className={styles.button} href="/#one"> Learn More </Button>
+				<div className={styles.introCard}>
+					<div className={styles.introContent}>
+						<span className={styles.introLogo}><img className={styles.image} src={logo} alt="Logo" /></span>
+						<div>
+							<h1>Going Down the EECS Stack</h1>
+							<p>With so many EE and CS classes at Berkeley, it is important that students know which classes best match their personal and career interests. This DeCal is offered to provide students with a broad survey of topics within EECS and a general sense of the courses and subfields within the major. We aim to cover each topic in totality, so no EE or CS experience is required.</p>
+							<Button variant="info" className={styles.button} href="hkn.mu/decal-app"> Enroll Now! </Button>
+							<Button variant="secondary" className={styles.button} href="#overview"> Learn More </Button>
+						</div>
+					</div>
 				</div>
 			</div>
+		</section>
+	)
+}
+
+function DetailCard(props) {
+	return (
+		<ScrollAnimation animateIn='animate__animated animate__fadeIn'>
+			<h3>{props.title}</h3>
+			<p>{props.desc}</p>
+		</ScrollAnimation>
+	)
+}
+
+export function OverviewSection() {
+	return (
+		<section id="overview" className={styles.section}>
+			<section className={styles.inner}> 
+				{About.map((details) => <DetailCard title={details.title} desc={details.description}/>)}
+			</section>
 		</section>
 	)
 }
@@ -37,7 +64,7 @@ function ClassCard(props) {
 	return (
 		<ScrollAnimation animateIn='animate__animated animate__fadeInUp'>
 			<div className={styles.classCard}>
-				<span className={styles.classCardThumbnail}> <img className={styles.classCardImage} alt= "pic of person" src={require('../images/background.jpg')} /> </span>
+				<span className={styles.classCardThumbnail}> <img className={styles.image} alt= "pic of person" src={require('../images/background.jpg')} /> </span>
 				<span className={styles.classCardContent}>
 					<h4>{props.week.title} -  Week {props.week.number}</h4>
 					<div className={styles.classCardDescription}>{props.week.description}</div>
@@ -49,7 +76,7 @@ function ClassCard(props) {
 
 export function ScheduleSection() {
 	return (
-		<section id="one" className={styles.section}>
+		<section id="schedule" className={styles.section}>
 			<section className={styles.inner}> 
 				{Weeks.map((week) => <ClassCard week={week}/>)}
 			</section>
@@ -89,7 +116,7 @@ function InstructorCard(props) {
 
 export function FacilitatorsSection() {
 	return (
-		<section id="two" className={styles.section}>
+		<section id="facilitators" className={styles.section}>
 			<div className={styles.inner}>
 				<h2>Facilitators</h2>
 				<p>Meet the people who will be interacting with you throughout the semester!</p>

@@ -95,7 +95,23 @@ const Weeks = [
 	}
 ];
 
-export { Officers, Weeks};
+const About = [
+	{
+		"title": "Key Learning Outcomes",
+		"description": "This course will take students on a journey through YouTube starting from the browser request to the underlying circuitry and physics in computers. Each week will move lower on the software/hardware stack, with a deconstructive approach to software and a constructive approach towards hardware. After taking this course, students will have a fair understanding of every level of the EECS stack."
+	},
+	{
+		"title": "Methods of Instruction",
+		"description": "Sessions will consist of 2 hours of instruction, including a mix of interactive labs/demonstrations and lecture. In addition, staff will plan trips to various research labs or host talks by current researchers in applicable fields to provide deeper insight into various areas of research. The syllabus itself covers 12 weeks of instruction, including guest lectures by either faculty or a current researcher, lab tours, and other activities!"
+	},
+	{
+		"title": "Assignments and Grading",
+		"description": "To pass the course a total of 17 points must be obtained by each student. Attendance and weekly submissions are worth 1 point each (there are 11 classes and 10 weekly assignments). There will also be a field trip and a final project, both of which are mandatory. For students who are unable to attend the field trip, there will be an alternative assignment."
+	},
+
+];
+
+export { Officers, Weeks, About };
 
 
 

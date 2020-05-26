@@ -4,6 +4,7 @@
 
 .button {
 	border-radius: 50px;
+	margin: 0 20px 0 0;
 }
 
 .intro {
@@ -12,10 +13,22 @@
 	background-image: url("../images/background.jpg");
 }
 
-.introContent {
+.introCard {
     background-color: rgba(255, 255, 255, 0.4);
     padding: 50px 20px;
     border-radius: 5px; 
+}
+
+.introContent {
+	display: table;
+}
+
+.introLogo {
+	width: 180px;
+	height: 180px;
+	display: table-cell;
+    vertical-align: middle;
+	padding: 5px;
 }
 
 .section {
@@ -52,9 +65,8 @@
 	padding: 5px;
 }
 
-.classCardImage {
-	height: 180px;
-	width: 320px;
+.image {
+	height: 100%;
 }
 
 .classCardContent {

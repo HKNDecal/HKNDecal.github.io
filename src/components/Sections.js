@@ -68,7 +68,7 @@ function ClassCard(props) {
 			<div className={styles.classCard}>
 				<span className={styles.classCardThumbnail}>
 					<div className={styles.classCardTText}> {props.week.title} </div>
-					<img className={styles.image} alt= "pic of person" src={require('../images/background.jpg')} /> 
+					<img className={styles.image} alt= "pic of person" src={styles.image} /> 
 				</span>
 				<span className={styles.classCardContent}>
 					<h4>{props.week.title} -  Week {props.week.number}</h4>

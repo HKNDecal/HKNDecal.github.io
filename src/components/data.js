@@ -20,7 +20,7 @@ const Officers = [
 		"site": "hkn.mu",
 	},
 	{
-		"img": require("../images/instructors/leyla-kabuli.jpg"),
+		"img": require("../images/instructors/leyla-kabuli.png"),
 		"name": "Leyla Kabuli",
 		"site": "hkn.mu",
 	},

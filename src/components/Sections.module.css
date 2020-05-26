@@ -1,0 +1,102 @@
+.wrapper  {
+   /*margin-left: 50px;*/
+}
+
+.button {
+	border-radius: 50px;
+}
+
+.intro {
+	height: 600px;
+	display: table;
+	background-image: url("../images/background.jpg");
+}
+
+.introContent {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 50px 20px;
+    border-radius: 5px; 
+}
+
+.section {
+	min-height: 500px;
+	display: table;
+}
+
+.inner {
+	padding: 50px;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.classCard {
+	width: 1000px;
+	padding: 10px;
+	border: gray solid 0.025em;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: max-height 1s, color 0.2s, box-shadow 0.2s;
+
+	display: table;
+}
+
+.classCard:hover {
+	color: orange;
+	box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.2);
+}
+
+.classCardThumbnail {
+	width: 320px;
+	height: 180px;
+	display: table-cell;
+	padding: 5px;
+}
+
+.classCardImage {
+	height: 180px;
+	width: 320px;
+}
+
+.classCardContent {
+    vertical-align: top;
+	display: table-cell;
+
+	padding: 0px 10px;
+}
+
+.classCardDescription {
+	font-size: 14px;
+	color: darkgrey;
+}
+
+
+
+.instructorCard {
+	display: inline-block;
+	width: 300px;
+	padding: 10px;
+	border: gray solid 0.025em;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: max-height 1s, color 0.2s, box-shadow 0.2s;
+}
+
+.instructorCard:hover {
+	color: orange;
+	box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.2);
+}
+
+.instructorCardThumbnail {
+	width: 320px;
+	height: 180px;
+	padding: 5px;
+}
+
+.instructorCardContent {
+	padding: 0px 10px;
+}
+
+.instructorCardDescription {
+	font-size: 14px;
+	color: darkgrey;
+}

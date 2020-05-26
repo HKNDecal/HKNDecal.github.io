@@ -59,14 +59,44 @@
 }
 
 .classCardThumbnail {
+	position: relative;
 	width: 320px;
 	height: 180px;
 	display: table-cell;
-	padding: 5px;
+}
+
+.classCardTText {
+	position: absolute;
+	width: 80%;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+	color: white;
+	letter-spacing: 0.2em;
+}
+
+.classCardTText:before, .classCardTText:after {
+	border-radius: 0.2em;
+	content: '';
+	height: 0.2em;
+	position: absolute;
+	right: 10%;
+	width: 80%;
+	background-color: white;
+}
+
+.classCardTText:before {
+  top: -20px;
+}
+
+.classCardTText:after {
+  bottom: -20px;
 }
 
 .image {
 	height: 100%;
+	width: 100%;
 }
 
 .classCardContent {

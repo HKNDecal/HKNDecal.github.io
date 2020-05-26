@@ -27,7 +27,9 @@ export function IntroSection() {
 			<div className={styles.inner}>
 				<div className={styles.introCard}>
 					<div className={styles.introContent}>
-						<span className={styles.introLogo}><img className={styles.image} src={logo} alt="Logo" /></span>
+						<span className={styles.introLogo}>
+							<img className={styles.image} src={logo} alt="Logo" />
+						</span>
 						<div>
 							<h1>Going Down the EECS Stack</h1>
 							<p>With so many EE and CS classes at Berkeley, it is important that students know which classes best match their personal and career interests. This DeCal is offered to provide students with a broad survey of topics within EECS and a general sense of the courses and subfields within the major. We aim to cover each topic in totality, so no EE or CS experience is required.</p>
@@ -64,7 +66,10 @@ function ClassCard(props) {
 	return (
 		<ScrollAnimation animateIn='animate__animated animate__fadeInUp'>
 			<div className={styles.classCard}>
-				<span className={styles.classCardThumbnail}> <img className={styles.image} alt= "pic of person" src={require('../images/background.jpg')} /> </span>
+				<span className={styles.classCardThumbnail}>
+					<div className={styles.classCardTText}> {props.week.title} </div>
+					<img className={styles.image} alt= "pic of person" src={require('../images/background.jpg')} /> 
+				</span>
 				<span className={styles.classCardContent}>
 					<h4>{props.week.title} -  Week {props.week.number}</h4>
 					<div className={styles.classCardDescription}>{props.week.description}</div>

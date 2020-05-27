@@ -72,7 +72,7 @@ function ClassCard(props) {
 				</span>
 				<span className={styles.classCardContent}>
 					<h4 className={styles.classCardTitle}>{props.week.title} -  Week {props.week.number}</h4>
-					<Button href={props.week.slides} variant="info" size="sm">Slides</Button>
+					<Button target="_blank"href={props.week.slides} variant="info" size="sm">Slides</Button>
 					<div className={styles.classCardDescription}>{props.week.description}</div>
 				</span>
 			</div>

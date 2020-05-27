@@ -108,8 +108,12 @@
 .classCardContent {
     vertical-align: top;
 	display: table-cell;
-
 	padding: 0px 10px;
+}
+
+.classCardTitle {
+	display: inline-block;
+	margin: 0 15px 0 0;
 }
 
 .classCardDescription {

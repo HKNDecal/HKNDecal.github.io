@@ -3,7 +3,7 @@ import { Card, Button } from "react-bootstrap"
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 
-import { Officers, Weeks, About } from  "./data.js"
+import { Officers, Weeks, About, Configs } from  "./data.js"
 import styles from "./Sections.module.css"
 import Footer from "../components/Footer.js"
 import logo from "../images/decal-logo.png"
@@ -45,7 +45,7 @@ export function IntroSection() {
 
 function DetailCard(props) {
 	return (
-		<ScrollAnimation animateIn='animate__animated animate__fadeIn'>
+		<ScrollAnimation animateIn='animate__animated animate__fadeIn' animateOnce={Configs.animateOnce}>
 			<h3>{props.title}</h3>
 			<p>{props.desc}</p>
 		</ScrollAnimation>
@@ -64,14 +64,15 @@ export function OverviewSection() {
 
 function ClassCard(props) {
 	return (
-		<ScrollAnimation animateIn='animate__animated animate__fadeInUp'>
+		<ScrollAnimation animateIn='animate__animated animate__fadeInUp' animateOnce={Configs.animateOnce}>
 			<div className={styles.classCard}>
 				<span className={styles.classCardThumbnail}>
 					<div className={styles.classCardTText}> {props.week.title} </div>
 					<img className={styles.image} alt= "pic of person" src={props.week.image} /> 
 				</span>
 				<span className={styles.classCardContent}>
-					<h4>{props.week.title} -  Week {props.week.number}</h4>
+					<h4 className={styles.classCardTitle}>{props.week.title} -  Week {props.week.number}</h4>
+					<Button href={props.week.slides} variant="info" size="sm">Slides</Button>
 					<div className={styles.classCardDescription}>{props.week.description}</div>
 				</span>
 			</div>
@@ -104,7 +105,7 @@ export function ScheduleSection() {
 function InstructorCard(props) {
 	return (
 
-		<ScrollAnimation style={{display: "inline-block"}} animateIn='animate__animated animate__fadeIn'>
+		<ScrollAnimation style={{display: "inline-block"}} animateIn='animate__animated animate__fadeIn' animateOnce={Configs.animateOnce}>
 			<Card className={styles.instructorCard}>
 			    <Card.Img variant="top" src={props.ta.img} />
 			    <Card.Body>

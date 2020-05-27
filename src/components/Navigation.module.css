@@ -67,11 +67,11 @@
   text-decoration: none;
 }
 
-.a.active {
+.active, .active:hover {
   color: #ffffff;
 }
 
-.a.active:after, .a:hover:after{
+.active:after, .a:hover:after{
   max-width: 100%;
 }
 

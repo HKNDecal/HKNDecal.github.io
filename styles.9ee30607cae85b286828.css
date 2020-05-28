@@ -1,4 +1,4 @@
-html{scroll-behavior:smooth}body{font-family:Lato,sans-serif;line-height:140%}ul{-webkit-padding-start:0;padding-inline-start:0}
+html{scroll-behavior:smooth}body{font-family:Lato,sans-serif;line-height:140%}@media screen and (max-width:1000px){ul{-webkit-padding-start:0;padding-inline-start:0}}
 /*!
  * animate.css - https://animate.style/
  * Version - 4.1.0

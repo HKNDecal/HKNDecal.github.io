@@ -1,7 +1,7 @@
 import React from "react"
 import { Card, Button } from "react-bootstrap"
-import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll'
+import "animate.css/animate.min.css"
 
 import { Officers, Weeks, About, Configs } from  "./data.js"
 import styles from "./Sections.module.css"
@@ -67,8 +67,10 @@ function ClassCard(props) {
 		<ScrollAnimation animateIn='animate__animated animate__fadeInUp' animateOnce={Configs.animateOnce}>
 			<div className={styles.classCard}>
 				<span className={styles.classCardThumbnail}>
-					<div className={styles.classCardTText}> {props.week.title} </div>
-					<img className={styles.image} alt= "pic of person" src={props.week.image} /> 
+					<div className={styles.classCardImageContainer}>
+						<div className={styles.classCardTText}> {props.week.title} </div>
+						<img className={styles.image} alt= "pic of person" src={props.week.image} /> 
+					</div>
 				</span>
 				<span className={styles.classCardContent}>
 					<h4 className={styles.classCardTitle}>{props.week.title} -  Week {props.week.number}</h4>

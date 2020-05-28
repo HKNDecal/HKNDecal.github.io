@@ -7,3 +7,6 @@ body {
     line-height: 140%;
 }
 
+ul {
+    padding-inline-start: 0px;
+}

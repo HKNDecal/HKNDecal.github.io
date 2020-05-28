@@ -49,7 +49,6 @@
 	border-radius: 5px;
 	overflow: hidden;
 	transition: max-height 1s, color 0.2s, box-shadow 0.2s;
-
 	display: table;
 }
 
@@ -59,10 +58,13 @@
 }
 
 .classCardThumbnail {
+	display: table-cell;
+}
+
+.classCardImageContainer {
 	position: relative;
 	width: 320px;
 	height: 180px;
-	display: table-cell;
 }
 
 .classCardTText {
@@ -138,17 +140,35 @@
 	box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.2);
 }
 
-.instructorCardThumbnail {
-	width: 320px;
-	height: 180px;
-	padding: 5px;
+@media screen and (max-width: 1250px) {
+	.classCard {
+		width: 100%;
+		padding: 0;
+	}
+
 }
 
-.instructorCardContent {
-	padding: 0px 10px;
+@media screen and (max-width: 830px) {
+	.introLogo {
+		display: none;
+	}
 }
 
-.instructorCardDescription {
-	font-size: 14px;
-	color: darkgrey;
+@media screen and (max-width: 750px) {
+	.classCardThumbnail {
+		display: table-row;
+	}
+	.classCardContent {
+	    vertical-align: top;
+		display: table-cell;
+		/*padding: 0px;*/
+	}
 }
+
+@media screen and (max-width: 650px) {
+	.inner {
+		padding: 0;
+		vertical-align: top;
+	}
+}
+

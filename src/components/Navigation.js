@@ -20,7 +20,7 @@ export default function Navigation() {
 				<ListItem href="#intro">Welcome</ListItem>
 				<ListItem href="#overview">Course Overview</ListItem>
 				<ListItem href="#schedule">Class Schedule</ListItem>
-				<ListItem href="#facilitators">Intructors/TAs</ListItem>
+				<ListItem href="#facilitators">Teaching Assistants</ListItem>
 			</ul>
 		</nav>
 	)

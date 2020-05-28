@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Col, Row} from "react-bootstrap"
+import { Container, Col, Row } from "react-bootstrap"
 
 import styles from "./Footer.module.css"
 
@@ -14,8 +14,8 @@ export default function Footer() {
 				</Col>
 				<Col xs={6} md={3}>
 					<h6>Email</h6>
-					<p>Decal: decal[at]hkn.eecs.berrkeley.edu</p>
-					<p>General: hkn[at]hkn.eecs.berrkeley.edu</p>
+					<p>Decal: decal[at]hkn.eecs.berkeley.edu</p>
+					<p>General: hkn[at]hkn.eecs.berkeley.edu</p>
 				</Col>
 				<Col xs={6} md={3}>
 					<h6>Our Offices</h6>

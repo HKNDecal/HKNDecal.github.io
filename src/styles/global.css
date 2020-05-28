@@ -7,6 +7,8 @@ body {
     line-height: 140%;
 }
 
-ul {
-    padding-inline-start: 0px;
+@media screen and (max-width: 1000px) {
+	ul {
+	    padding-inline-start: 0px;
+	}
 }

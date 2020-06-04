@@ -19,3 +19,20 @@ Create a branch starting from the master branch titled `session-N`, where _N_ is
 session. You'll then use `session-N` to develop the material for session _N_. The rest of the class
 stays on the master branch while the session _N_ material is under development. When the material for
 session _N_ is complete, merge the `session-N` branch back into master.
+
+# Going Down the EECS Stack DeCal Website
+
+## Setup Instructions
+Step 1. Clone this repo to working directory
+```bash
+git clone https://github.com/HKNDecal/HKNDecal.github.io.git
+```
+Step 2. Checkout the dev branch
+```bash
+cd HKNDecal/setup
+source decal_setup.sh
+```
+Step 3. Deploy onto master branch
+```bash
+npm run deploy
+```

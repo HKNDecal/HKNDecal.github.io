@@ -29,10 +29,24 @@ git clone https://github.com/HKNDecal/HKNDecal.github.io.git
 ```
 Step 2. Checkout the dev branch
 ```bash
-cd HKNDecal/setup
-source decal_setup.sh
+git checkout dev
 ```
-Step 3. Deploy onto master branch
+Step 3. Install dependencies with
+```bash
+npm install
+```
+
+Work.
+
+Step 4. Deploy onto master branch (run command on the dev branch).
 ```bash
 npm run deploy
+```
+Step 5. Reconfiguring to point to decal.best
+Go to:
+https://github.com/HKNDecal/HKNDecal.github.io/settings
+Under GitHub Pages:
+-> Custom domain:
+```bash
+decal.best
 ```

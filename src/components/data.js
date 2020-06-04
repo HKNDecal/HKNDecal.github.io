@@ -2,31 +2,37 @@ const Officers = [
 	{
 		"img": require("../images/instructors/rohin-tangirala.jpg"),
 		"name": "Rohin Tangirala",
+		"year": "1st",
 		"site": "hkn.mu",
 	},
 	{
 		"img": require("../images/instructors/alex-kristoffersen.jpg"),
 		"name": "Alexander Kristoffersen",
+		"year": "1st",
 		"site": "hkn.mu",
 	},
 	{
 		"img": require("../images/instructors/alex-wu.jpg"),
 		"name": "Alex Wu",
+		"year": "1st",
 		"site": "hkn.mu",
 	},
 	{
 		"img": require("../images/instructors/vidish-gupta.jpg"),
 		"name": "Vidish Gupta",
+		"year": "1st",
 		"site": "hkn.mu",
 	},
 	{
 		"img": require("../images/instructors/leyla-kabuli.png"),
 		"name": "Leyla Kabuli",
+		"year": "1st",
 		"site": "hkn.mu",
 	},
 	{
 		"img": require("../images/instructors/luke-mujica.jpg"),
 		"name": "Luke Mujica",
+		"year": "1st",
 		"site": "hkn.mu",
 	}
 ];

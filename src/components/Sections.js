@@ -33,7 +33,7 @@ export function IntroSection() {
 						<div>
 							<h1>Going Down the EECS Stack</h1>
 							<p>With so many EE and CS classes at Berkeley, it is important that students know which classes best match their personal and career interests. This DeCal is offered to provide students with a broad survey of topics within EECS and a general sense of the courses and subfields within the major. We aim to cover each topic in totality, so no EE or CS experience is required.</p>
-							<Button variant="info" className={styles.button} href="hkn.mu/decal-app"> Enroll Now! </Button>
+							<Button variant="info" className={styles.button} href="https://hkn.mu/decalapp"> Enroll Now! </Button>
 							<Button variant="secondary" className={styles.button} href="#overview"> Learn More </Button>
 						</div>
 					</div>

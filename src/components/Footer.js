@@ -10,7 +10,7 @@ export default function Footer() {
 			<Row>
 				<Col sm={12} md={6}>
 					<h6>Some Advice</h6>
-					<p>Professor Sahai notes in his unofficial advice page 1 , “Set yourself a goal of understanding some system from top to bottom before you graduate. For example, you might want to know how the entire process of downloading and listening to an MP3 or OGG file works. This can be a good tool for integrating knowledge across different courses.” Since taking every EECS course may be infeasible and inefficient under the current system, we would like to provide a cocktail-party level of understanding so students can make educated decisions about which classes to explore. Even if you never take an EECS class after this one, this DeCal will be worthwhile if you enjoy learning about a variety of topics</p>
+					<p>Professor Sahai notes in his unofficial advice page 1 , “Set yourself a goal of understanding some system from top to bottom before you graduate. For example, you might want to know how the entire process of downloading and listening to an MP3 or OGG file works. This can be a good tool for integrating knowledge across different courses.” Since taking every EECS course may be infeasible and inefficient under the current system, we would like to provide a cocktail-party level of understanding so students can make educated decisions about which classes to explore. Even if you never take an EECS class after this one, this DeCal will be worthwhile if you enjoy learning about a variety of topics.</p>
 				</Col>
 				<Col xs={6} md={3}>
 					<h6>Email</h6>

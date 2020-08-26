@@ -148,6 +148,10 @@ const About = [
 		"title": "Assignments and Grading",
 		"description": "To pass the course a total of 17 points must be obtained by each student. Attendance and weekly submissions are worth 1 point each (there are 11 classes and 10 weekly assignments). There will also be a field trip and a final project, both of which are mandatory. For students who are unable to attend the field trip, there will be an alternative assignment."
 	},
+	{
+		"title": "How to Enroll",
+		"description": "Fill out our short google form linked in the welcome. Please apply as soon as possible; applications will be processed on a first-come-first-serve basis. Please make sure to attend the first lecture, as we will be handling course codes based on attendance. If you cannot make the first class, send us an email."
+	},
 
 ];
 

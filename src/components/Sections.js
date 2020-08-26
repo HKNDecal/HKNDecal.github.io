@@ -113,9 +113,9 @@ function InstructorCard(props) {
 			    <Card.Body>
 			    	<Card.Title>{props.ta.name}</Card.Title>
 	    			<Card.Subtitle className="mb-2 text-muted">EECS Major</Card.Subtitle>
-			    	<Card.Text>
+			    	{/* <Card.Text>
 			        	Some quick example text to build on the card title and make up the bulkof the card's content.
-			    	</Card.Text>
+			    	</Card.Text> */}
 			    </Card.Body>
 			</Card>
 		</ScrollAnimation>

@@ -1,5 +1,7 @@
 # Going Down the EECS Stack DeCal Repo
 
+This is a repository containing resources such as lab code for the decal.
+
 ## Setup Instructions
 Step 1. Clone this repo to home
 ```bash
@@ -22,27 +24,49 @@ session _N_ is complete, merge the `session-N` branch back into master.
 
 # Going Down the EECS Stack DeCal Website
 
-## Setup Instructions
-Step 1. Clone this repo to working directory
+This is the source code for the decal website at https://decal.best.
+
+## Setup
+
+**Step 1.** Install `npm` and `gatsby-cli` with `brew` or your favorite installer.
+
+**Step 2.** Clone this repo to working directory
 ```bash
 git clone https://github.com/HKNDecal/HKNDecal.github.io.git
 ```
-Step 2. Checkout the dev branch
+
+**Step 3.** Checkout the dev branch
 ```bash
 git checkout dev
 ```
-Step 3. Install dependencies with
+
+**Step 4.** Install dependencies with
 ```bash
 npm install
 ```
 
-Work.
+## Development
 
-Step 4. Deploy onto master branch (run command on the dev branch).
+**Step 1.** Make changes to the website.
+
+**Step 2.** Make sure the site behaves correctly using a local server. Run:
+```bash
+gatsby develop
+```
+
+The site can then be viewed in a browser at http://localhost:8000/. Any changes will be updated in the browser immediately after save.
+
+**Step 3.** Commit changes to git and push to the dev branch. If desired, a pull request can be created and reviewed.
+
+**Step 4.** Deploy onto master branch (run command on the dev branch).
 ```bash
 npm run deploy
 ```
-Step 5. Reconfiguring to point to decal.best
+
+This will update any changes made to the website to the production server. All changes, committed or otherwise, will be deployed.
+
+**Step 5.** Reconfiguring to point to decal.best
+
 Go to:
 https://github.com/HKNDecal/HKNDecal.github.io/settings
 Under GitHub Pages:
@@ -50,3 +74,5 @@ Under GitHub Pages:
 ```bash
 decal.best
 ```
+
+This step must be repeated each time the site is deployed.

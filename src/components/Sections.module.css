@@ -24,11 +24,12 @@
 }
 
 .introLogo {
-	width: 180px;
-	height: 180px;
+	width: 150px;
+	height: 150px;
 	display: table-cell;
     vertical-align: middle;
 	padding: 5px;
+	box-sizing: content-box;
 }
 
 .section {
@@ -97,8 +98,11 @@
 }
 
 .image {
-	height: 100%;
-	width: 100%;
+	/* This resizes the image to fit but preserve the aspect ratio. */
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
 	user-drag: none; 
 	user-select: none;
 	-moz-user-select: none;

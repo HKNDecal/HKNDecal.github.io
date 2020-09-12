@@ -2,38 +2,59 @@ const Officers = [
 	{
 		"img": require("../images/instructors/rohin-tangirala.jpg"),
 		"name": "Rohin Tangirala",
-		"year": "1st",
-		"site": "hkn.mu",
+		"year": "2nd Year EECS",
+		"about": [
+			"EECS 16A Lab ASE",
+			"Interested in integrated circuits and computer architecture",
+			"Play piano, guitar, and (occasionally) clarinet",
+		],
 	},
 	{
 		"img": require("../images/instructors/alex-kristoffersen.jpg"),
 		"name": "Alexander Kristoffersen",
-		"year": "1st",
-		"site": "hkn.mu",
+		"year": "3rd Year EECS",
+		"about": [
+			"Interested in computer vision and communication / signal processing",
+			"Big David Blaine fan",
+		],
 	},
 	{
 		"img": require("../images/instructors/alex-wu.jpg"),
 		"name": "Alex Wu",
-		"year": "1st",
-		"site": "hkn.mu",
+		"year": "5th Year EECS (Master’s)",
+		"about": [
+			"Does research in cryptography (zero-knowledge proofs)",
+			"Loves lego, origami, and physics (smash that subscribe button at tinyurl.com/alexonscience)",
+		],
 	},
 	{
 		"img": require("../images/instructors/vidish-gupta.jpg"),
 		"name": "Vidish Gupta",
-		"year": "1st",
-		"site": "hkn.mu",
+		"year": "3rd Year EECS",
+		"about": [
+			"EECS 16A TA",
+			"Interested in embedded systems, software",
+			"Currently doing research on quantum sensors at LBL",
+		],
 	},
 	{
 		"img": require("../images/instructors/leyla-kabuli.png"),
 		"name": "Leyla Kabuli",
-		"year": "1st",
-		"site": "hkn.mu",
+		"year": "4th year EECS + Music",
+		"about": [
+			"Interested in computational imaging, medical imaging, and computer vision",
+			"\"Plays piano or something\"",
+		],
 	},
 	{
 		"img": require("../images/instructors/luke-mujica.jpg"),
 		"name": "Luke Mujica",
-		"year": "1st",
-		"site": "hkn.mu",
+		"year": "4th Year EECS",
+		"about": [
+			"CS 61C TA",
+			"Still trying to learn Spanish",
+			"Play guitar sometimes",
+		],
 	}
 ];
 

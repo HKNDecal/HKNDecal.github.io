@@ -3,12 +3,12 @@
 This is a repository containing resources such as lab code for the decal.
 
 ## Setup Instructions
-Step 1. Clone this repo to home
+**Step 1.** Clone this repo to home
 ```bash
 cd ~
 git clone https://github.com/HKNDecal/HKNDecal.git
 ```
-Step 2. Run setup script in the setup directory
+**Step 2.** Run setup script in the setup directory
 ```bash
 cd HKNDecal/setup
 source decal_setup.sh

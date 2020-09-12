@@ -56,7 +56,9 @@ export function OverviewSection() {
 	return (
 		<section id="overview" className={styles.section}>
 			<section className={styles.inner}> 
-				{About.map((details) => <DetailCard title={details.title} desc={details.description}/>)}
+				{About.map((details, i) =>
+					<DetailCard key={i} title={details.title} desc={details.description}/>
+				)}
 			</section>
 		</section>
 	)
@@ -86,36 +88,32 @@ export function ScheduleSection() {
 	return (
 		<section id="schedule" className={styles.section}>
 			<section className={styles.inner}> 
-				{Weeks.map((week) => <ClassCard week={week}/>)}
+				{Weeks.map((week, i) => <ClassCard key={i} week={week}/>)}
 			</section>
 		</section>
 	)
 }
 
-// function InstructorCard(props) {
-// 	return (
-// 		<div className={styles.instructorCard}>
-// 			<span className={styles.instructorCardThumbnail}> <img alt= "pic of person" src={require('../images/background.jpg')} /> </span>
-// 			<span className={styles.instructorCardContent}>
-// 				<h4>{props.title} -  Week {props.number}</h4>
-// 				<div className={styles.instructorCardDescription}>{props.description}</div>
-// 			</span>
-// 		</div>
-// 	)
-// }
-
 function InstructorCard(props) {
 	return (
 
-		<ScrollAnimation style={{display: "inline-block"}} animateIn='animate__animated animate__fadeIn' animateOnce={Configs.animateOnce}>
+		<ScrollAnimation
+			style={{display: "inline-block", "vertical-align": "top"}}
+			animateIn='animate__animated animate__fadeIn'
+			animateOnce={Configs.animateOnce}
+		>
 			<Card className={styles.instructorCard}>
 			    <Card.Img variant="top" src={props.ta.img} />
 			    <Card.Body>
 			    	<Card.Title>{props.ta.name}</Card.Title>
-	    			<Card.Subtitle className="mb-2 text-muted">EECS Major</Card.Subtitle>
-			    	{/* <Card.Text>
-			        	Some quick example text to build on the card title and make up the bulkof the card's content.
-			    	</Card.Text> */}
+					<Card.Subtitle className="mb-2 text-muted">
+						{props.ta.year}
+					</Card.Subtitle>
+					<ul className={styles.instructorList}>
+						{props.ta.about.map((item, i) =>
+						    <li key={i}>{item}</li>
+						)}
+					</ul>
 			    </Card.Body>
 			</Card>
 		</ScrollAnimation>
@@ -129,7 +127,7 @@ export function FacilitatorsSection() {
 				<h2>Facilitators</h2>
 				<p>Meet the people who will be interacting with you throughout the semester!</p>
 				<div>
-					{Officers.map((ta) => <InstructorCard ta={ta}/>)}
+					{Officers.map((ta, i) => <InstructorCard key={i} ta={ta}/>)}
 				</div>
 			</div>
 		</section>

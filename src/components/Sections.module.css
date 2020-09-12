@@ -127,8 +127,6 @@
 	color: darkgrey;
 }
 
-
-
 .instructorCard {
 	display: inline-block;
 	width: 300px;
@@ -142,6 +140,12 @@
 .instructorCard:hover {
 	color: orange;
 	box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.2);
+}
+
+.instructorList {
+	margin-left: 1.2em;
+	margin-bottom: 0;
+	padding-left: 0;
 }
 
 @media screen and (max-width: 1250px) {

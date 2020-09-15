@@ -65,6 +65,24 @@ export function OverviewSection() {
 }
 
 function ClassCard(props) {
+	if (props.week.slides == "") {
+		return (
+			<ScrollAnimation animateIn='animate__animated animate__fadeInUp' animateOnce={Configs.animateOnce}>
+				<div className={styles.classCard}>
+					<span className={styles.classCardThumbnail}>
+						<div className={styles.classCardImageContainer}>
+							<div className={styles.classCardTText}> {props.week.title} </div>
+							<img className={styles.image} alt= "pic of person" src={props.week.image} /> 
+						</div>
+					</span>
+					<span className={styles.classCardContent}>
+						<h4 className={styles.classCardTitle}>{props.week.title} -  Week {props.week.number}</h4>
+						<div className={styles.classCardDescription}>{props.week.description}</div>
+					</span>
+				</div>
+			</ScrollAnimation>
+		)
+	}
 	return (
 		<ScrollAnimation animateIn='animate__animated animate__fadeInUp' animateOnce={Configs.animateOnce}>
 			<div className={styles.classCard}>

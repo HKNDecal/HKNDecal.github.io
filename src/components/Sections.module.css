@@ -46,7 +46,8 @@
 .classCard {
 	width: 1000px;
 	padding: 10px;
-	border: gray solid 0.025em;
+	margin: 10px;
+	border: lightgray solid 0.025em;
 	border-radius: 5px;
 	overflow: hidden;
 	transition: max-height 1s, color 0.2s, box-shadow 0.2s;
@@ -54,7 +55,7 @@
 }
 
 .classCard:hover {
-	color: orange;
+	color: rgb(23, 152, 175);
 	box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -123,15 +124,16 @@
 }
 
 .classCardDescription {
-	font-size: 14px;
-	color: darkgrey;
+	font-size: 15px;
+	color: rgb(121, 121, 121);
 }
 
 .instructorCard {
 	display: inline-block;
 	width: 300px;
 	padding: 10px;
-	border: gray solid 0.025em;
+	margin: 10px;
+	border: lightgray solid 0.025em;
 	border-radius: 10px;
 	overflow: hidden;
 	transition: max-height 1s, color 0.2s, box-shadow 0.2s;

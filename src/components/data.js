@@ -69,7 +69,7 @@ const Weeks = [
 	{
 		"number": 2,
 		"title": "Human-Computer Interaction",
-		"description": "Human-computer interaction is the subfield of computer science that focuses on the interactions that users have with computers. This class will mainly be about the User Interfaces which is what the user will directly interact with. We will also introduce the iterative design cycle, which is one of the primary methods for the prototyping and development of user interfaces. Part of the class will be a case study of the history of UI/UX",
+		"description": "Human-computer interaction is the subfield of computer science that focuses on the interactions that users have with computers. This class will mainly be about the User Interfaces which is what the user will directly interact with. We will also introduce the iterative design cycle, which is one of the primary methods for the prototyping and development of user interfaces.",
 		"lab": "Designing an App User Interface",
 		"image": require('../images/background.jpg'),
 		"slides": ""

@@ -72,7 +72,7 @@ const Weeks = [
 		"description": "Human-computer interaction is the subfield of computer science that focuses on the interactions that users have with computers. This class will mainly be about the User Interfaces which is what the user will directly interact with. We will also introduce the iterative design cycle, which is one of the primary methods for the prototyping and development of user interfaces.",
 		"lab": "Designing an App User Interface",
 		"image": require('../images/background.jpg'),
-		"slides": ""
+		"slides": "https://docs.google.com/presentation/d/1mO0Chl6QetG2Cq-O7UXgxDuBkOeEIt9uWERO9uMZ4ok/edit?usp=sharing"
 	},
 	{
 		"number": 3,

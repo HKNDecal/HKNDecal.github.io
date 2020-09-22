@@ -65,7 +65,7 @@ export function OverviewSection() {
 }
 
 function ClassCard(props) {
-	if (props.week.slides == "") {
+	if (props.week.slides === "") {
 		return (
 			<ScrollAnimation animateIn='animate__animated animate__fadeInUp' animateOnce={Configs.animateOnce}>
 				<div className={styles.classCard}>

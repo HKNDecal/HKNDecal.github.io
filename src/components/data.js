@@ -92,8 +92,8 @@ const Weeks = [
 	},
 	{
 		"number": 5,
-		"title": "Security and Applications",
-		"description": "Applications serve as the interface between computers and people. These include web applications such as YouTube, or mobile applications such as Flappy Bird. Security sits at the heart of many applications, such as games or web browsers, and is achieved by utilizing information that only “authorized” users know. Vulnerabilities then appear when attackers are able to impersonate authorized users or exploit loopholes in the program.",
+		"title": "Security and Cryptography",
+		"description": "While developers would like to write code that just does what it’s supposed to, the reality is that attackers have incentives to exploit loopholes in applications. This week we examine defenses against these attacks, including code security, network security, and web security. We will also study the tool that enables many of these defenses: cryptography, the study of algorithms that achieve certain guarantees in the presence of adversaries.",
 		"lab": "Network and Web Security",
 		"image": require('../images/background.jpg'),
 		"slides": ""

@@ -4,58 +4,75 @@ const Officers = [
 		"name": "Rohin Tangirala",
 		"year": "2nd Year EECS",
 		"about": [
-			"EECS 16A Lab ASE",
-			"Interested in integrated circuits and computer architecture",
-			"Play piano, guitar, and (occasionally) clarinet",
-		],
+			"Interested in applied physics and integrated circuits",
+			"Plays piano, guitar, and (occasionally) clarinet",
+			"Trying to produce music"
+		]
 	},
 	{
 		"img": require("../images/instructors/alex-kristoffersen.jpg"),
 		"name": "Alexander Kristoffersen",
 		"year": "3rd Year EECS",
 		"about": [
-			"Interested in computer vision and communication / signal processing",
-			"Big David Blaine fan",
-		],
+			"Interested in computer vision, communication / signal processing, and robotics",
+			"Can flip 3 fried eggs at the same time with minimal losses"
+		]
 	},
 	{
-		"img": require("../images/instructors/alex-wu.jpg"),
-		"name": "Alex Wu",
-		"year": "5th Year EECS (Master’s)",
+		"img": require("../images/instructors/augie-eriksson.jpg"),
+		"name": "Augie Eriksson",
+		"year": "2nd Year EECS",
 		"about": [
-			"Does research in cryptography (zero-knowledge proofs)",
-			"Loves lego, origami, and physics (smash that subscribe button at tinyurl.com/alexonscience)",
-		],
+			"Interested in computer architecture",
+			"Likes linguistics but bad at learning languages including English",
+			"Plays piano sometimes"
+		]
 	},
 	{
-		"img": require("../images/instructors/vidish-gupta.jpg"),
-		"name": "Vidish Gupta",
-		"year": "3rd Year EECS",
+		"img": require("../images/instructors/bryan-ngo.png"),
+		"name": "Bryan Ngo",
+		"year": "2nd Year EECS",
 		"about": [
-			"EECS 16A TA",
-			"Interested in embedded systems, software",
-			"Currently doing research on quantum sensors at LBL",
-		],
+			"EECS 16A Lab ASE",
+			"Can solve a Rubik's cube in 17 seconds"
+		]
 	},
 	{
 		"img": require("../images/instructors/leyla-kabuli.png"),
 		"name": "Leyla Kabuli",
-		"year": "4th year EECS + Music",
+		"year": "4th Year EECS + Music",
 		"about": [
 			"Interested in computational imaging, medical imaging, and computer vision",
-			"\"Plays piano or something\"",
-		],
+			"\"Plays piano or something\""
+		]
 	},
 	{
-		"img": require("../images/instructors/luke-mujica.jpg"),
-		"name": "Luke Mujica",
-		"year": "4th Year EECS",
+		"img": require("../images/instructors/brandon-schellhaass.png"),
+		"name": "Brandon Schellhaass",
+		"year": "2nd Year EECS",
 		"about": [
-			"CS 61C TA",
-			"Still trying to learn Spanish",
-			"Play guitar sometimes",
-		],
-	}
+			"Interested in computational biology and controls",
+			"Reads a lot of fantasy and sci-fi novels"
+		]
+	},
+	{
+		"img": require("../images/instructors/simon-guo.jpg"),
+		"name": "Simon Guo",
+		"year": "2nd Year EECS",
+		"about": [
+			"Interested in systems, computer architecture, and robotics",
+			"My favorite philosophers are Lucretius and Nietzsche",
+			"Am I a cyborg?"
+		]
+	},
+	{
+		"img": require("../images/instructors/george-hutchinson.png"),
+		"name": "George Hutchinson",
+		"year": "EECS '20",
+		"about": [
+			"Alumnus who doesn't know how to let go"
+		]
+	},
 ];
 
 const Weeks = [

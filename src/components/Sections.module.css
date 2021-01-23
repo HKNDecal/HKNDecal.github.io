@@ -44,7 +44,7 @@
 }
 
 .classCard {
-	width: 1000px;
+	width: 950px;
 	padding: 10px;
 	margin: 10px;
 	border: lightgray solid 0.025em;
@@ -130,7 +130,7 @@
 
 .instructorCard {
 	display: inline-block;
-	width: 300px;
+	width: 290px;
 	padding: 10px;
 	margin: 10px;
 	border: lightgray solid 0.025em;

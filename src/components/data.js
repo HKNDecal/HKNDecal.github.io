@@ -117,6 +117,14 @@ const Weeks = [
 	},
 	{
 		"number": 6,
+		"title": "Computer Theory and Research",
+		"description": "Computer theory is the branch of computer science related to the mathematical study of computing. In this class we will cover three main areas of algorithms, complexity, and computability. We will cover several of the fundamental problems/ideas in computer theory such as the halting problem, P vs. NP, and the Church-Turing Thesis.",
+		"lab": "Computer Theory Puzzle Set",
+		"image": require('../images/background.jpg'),
+		"slides": ""
+	},
+	{
+		"number": 7,
 		"title": "Systems",
 		"description": "Applications run by writing code, but that code doesn’t automagically run on the physical computer. This session will cover Operating Systems, Compilers, and Binary -- the translation and execution of code from human-readable format to computer-readable format. This session will also cover hardware device interfaces, such as network sockets and drivers",
 		"lab": "Simple Compiler for Circuits",
@@ -124,7 +132,7 @@ const Weeks = [
 		"slides": ""
 	},
 	{
-		"number": 7,
+		"number": 8,
 		"title": "How to Build a Computer",
 		"description": "Applications run on top of hardware, which is typically a set of wires and gates. In this session, we will examine digital logic, memory units, and the hardware-software interface. We will also examine digital circuit design, clocking, and hardware-peripheral interfaces.",
 		"lab": "Logisim CPU",
@@ -132,7 +140,7 @@ const Weeks = [
 		"slides": ""
 	},
 	{
-		"number": 8,
+		"number": 9,
 		"title": "Communications and Circuits",
 		"description": "We’ve taken this dive through how modern computing works, but there’s an essential missing component, measurement! The real world is not discrete or digital, but luckily analog circuits are here to save the day. We will learn how analog circuits turn signals into digital information for computers, build an inverter out of transistors, and explore digital logic through an analog view.",
 		"lab": "Inverters and Logic Gates",
@@ -140,18 +148,10 @@ const Weeks = [
 		"slides": ""
 	},
 	{
-		"number": 9,
+		"number": 10,
 		"title": "Power and Semiconductors",
 		"description": "Transistors are the building blocks of computers, but what exactly are transistors? This session will describe the physics behind how transistors work, in a qualitative, simple way. We will build up from the ideas of bonding in silicon to different charge carriers in semiconductors and finally MOSFETs. We will also explore power systems and renewable energy.",
 		"lab": "Visual simulations of MOSFETs (tentatively)",
-		"image": require('../images/background.jpg'),
-		"slides": ""
-	},
-	{
-		"number": 10,
-		"title": "Computer Theory and Research",
-		"description": "Computer theory is the branch of computer science related to the mathematical study of computing. In this class we will cover three main areas of algorithms, complexity, and computability. We will cover several of the fundamental problems/ideas in computer theory such as the halting problem, P vs. NP, and the Church-Turing Thesis.",
-		"lab": "Computer Theory Puzzle Set",
 		"image": require('../images/background.jpg'),
 		"slides": ""
 	},

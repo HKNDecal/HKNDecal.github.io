@@ -1,76 +1,38 @@
 const Officers = [
 	{
-		"img": require("../images/instructors/rohin-tangirala.jpg"),
-		"name": "Rohin Tangirala",
-		"year": "2nd Year EECS",
+		"img": require("../images/instructors/ashwin-ganesh.jpg"),
+		"name": "Ashwin Ganesh",
+		"year": "5th Year EECS MS",
 		"about": [
-			"Interested in applied physics and integrated circuits",
-			"Plays piano, guitar, and (occasionally) clarinet",
-			"Trying to produce music"
+			"Interested in deep learning, computer vision, natural language processing, and training models for robustness/sparsity",
+			"Passionate about electronic music, working out, and traveling"
 		]
 	},
 	{
-		"img": require("../images/instructors/alex-kristoffersen.jpg"),
-		"name": "Alexander Kristoffersen",
+		"img": require("../images/instructors/richel-dhaliwal.jpg"),
+		"name": "Richel Dhaliwal",
 		"year": "3rd Year EECS",
 		"about": [
-			"Interested in computer vision, communication / signal processing, and robotics",
-			"Can flip 3 fried eggs at the same time with minimal losses"
+			"Interested in computer architecture and exploring computer science fields in general",
+			"Accidentally hit a tennis ball with my hand instead of my racket once during a tennis match and it actually went over the net"
 		]
 	},
 	{
-		"img": require("../images/instructors/augie-eriksson.jpg"),
-		"name": "Augie Eriksson",
+		"img": require("../images/instructors/albert-guo.jpg"),
+		"name": "Albert Guo",
 		"year": "2nd Year EECS",
 		"about": [
-			"Interested in computer architecture",
-			"Likes linguistics but bad at learning languages including English",
-			"Plays piano sometimes"
+			"Interested in quant finance and machine learning",
+			"Plays tft and tennis"
 		]
 	},
 	{
-		"img": require("../images/instructors/bryan-ngo.png"),
-		"name": "Bryan Ngo",
-		"year": "2nd Year EECS",
+		"img": require("../images/instructors/miguel-tenantdelatour.jpg"),
+		"name": "Miguel Tenant de La Tour",
+		"year": "4th Year EECS",
 		"about": [
-			"EECS 16A Lab ASE",
-			"Can solve a Rubik's cube in 17 seconds"
-		]
-	},
-	{
-		"img": require("../images/instructors/leyla-kabuli.png"),
-		"name": "Leyla Kabuli",
-		"year": "4th Year EECS + Music",
-		"about": [
-			"Interested in computational imaging, medical imaging, and computer vision",
-			"\"Plays piano or something\""
-		]
-	},
-	{
-		"img": require("../images/instructors/brandon-schellhaass.png"),
-		"name": "Brandon Schellhaass",
-		"year": "2nd Year EECS",
-		"about": [
-			"Interested in computational biology and controls",
-			"Reads a lot of fantasy and sci-fi novels"
-		]
-	},
-	{
-		"img": require("../images/instructors/simon-guo.jpg"),
-		"name": "Simon Guo",
-		"year": "2nd Year EECS",
-		"about": [
-			"Interested in systems, computer architecture, and robotics",
-			"My favorite philosophers are Lucretius and Nietzsche",
-			"Am I a cyborg?"
-		]
-	},
-	{
-		"img": require("../images/instructors/george-hutchinson.png"),
-		"name": "George Hutchinson",
-		"year": "EECS '20",
-		"about": [
-			"Alumnus who doesn't know how to let go"
+			"Interested in compilers, programming languages, and anything framework-level",
+			"Originally from france, but somehow has a spanish nickname"
 		]
 	},
 ];
@@ -81,7 +43,7 @@ const Weeks = [
 		"title": "Introduction",
 		"description": "This week will provide a quick preliminary overview of what the course will be about, distribution of course materials, as well as an introduction to the course staff. If available, we will be inviting Professor Anant Sahai, our faculty sponsor, to come and speak to interested students about our class.",
 		"image": require('../images/background.jpg'),
-		"slides": "https://docs.google.com/presentation/d/1IpMuSu38HANnAuUuZR-CVANGtT8r6ocmQmKR-gLQ2EU/edit?usp=sharing"
+		"slides": ""
 	},
 	{
 		"number": 2,
@@ -89,7 +51,7 @@ const Weeks = [
 		"description": "Human-computer interaction is the subfield of computer science that focuses on the interactions that users have with computers. This class will mainly be about the User Interfaces which is what the user will directly interact with. We will also introduce the iterative design cycle, which is one of the primary methods for the prototyping and development of user interfaces.",
 		"lab": "Designing an App User Interface",
 		"image": require('../images/background.jpg'),
-		"slides": "https://docs.google.com/presentation/d/1mO0Chl6QetG2Cq-O7UXgxDuBkOeEIt9uWERO9uMZ4ok/edit?usp=sharing"
+		"slides": ""
 	},
 	{
 		"number": 3,
@@ -101,7 +63,7 @@ const Weeks = [
 	},
 	{
 		"number": 4,
-		"title": "Mechanics Behind YouTube ML",
+		"title": "Machine Learning",
 		"description": "Machine Learning is the science of making software “learn.” We will introduce the big ideas behind machine learning and discuss how YouTube uses them to figure out which videos its users are more likely to watch. Along the way, we’ll gain some hands-on experience at designing and running your own learning algorithms.",
 		"lab": "YouTube Recommender System and Machine Learning Techniques",
 		"image": require('../images/background.jpg'),
@@ -176,7 +138,7 @@ const Weeks = [
 const About = [
 	{
 		"title": "Key Learning Outcomes",
-		"description": "This course will take students on a journey through YouTube starting from the browser request to the underlying circuitry and physics in computers. Each week will move lower on the software/hardware stack, with a deconstructive approach to software and a constructive approach towards hardware. After taking this course, students will have a fair understanding of every level of the EECS stack."
+		"description": "This course will take students on a journey through the fields of EE and CS starting from the browser request to the underlying circuitry and physics in computers. Each week will move lower on the software/hardware stack, with a deconstructive approach to software and a constructive approach towards hardware. After taking this course, students will have a fair understanding of every level of the EECS stack."
 	},
 	{
 		"title": "Methods of Instruction",
@@ -184,11 +146,11 @@ const About = [
 	},
 	{
 		"title": "Assignments and Grading",
-		"description": "To pass the course a total of 17 points must be obtained by each student. Attendance and weekly submissions are worth 1 point each (there are 11 classes and 10 weekly assignments). There will also be a field trip and a final project, both of which are mandatory. For students who are unable to attend the field trip, there will be an alternative assignment."
+		"description": "To pass the course a total of 19 points must be obtained by each student. Attendance and weekly submissions are worth 1 point each (there are 11 classes and 10 weekly assignments). There will also be a field trip and a final project, both of which are mandatory. For students who are unable to attend the field trip, there will be an alternative assignment."
 	},
 	{
 		"title": "How to Enroll",
-		"description": "Fill out our short google form linked in the welcome. Please apply as soon as possible; applications will be processed on a first-come-first-serve basis. Please make sure to attend the first lecture, as we will be handling course codes based on attendance. If you cannot make the first class, send us an email."
+		"description": "Fill out our short google form: https://hkn.mu/decalapp. Please apply as soon as possible; applications will be processed on a first-come-first-serve basis. Please make sure to attend the first lecture, as we will be handling course codes based on attendance. If you cannot make the first class, send us an email."
 	},
 
 ];

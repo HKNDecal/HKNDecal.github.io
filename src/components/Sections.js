@@ -46,8 +46,7 @@ export function IntroSection() {
 function DetailCard(props) {
 	return (
 		<ScrollAnimation animateIn='animate__animated animate__fadeIn' animateOnce={Configs.animateOnce}>
-			<h3>{props.title}</h3>
-			<p>{props.desc}</p>
+			{props.children}
 		</ScrollAnimation>
 	)
 }
@@ -57,7 +56,9 @@ export function OverviewSection() {
 		<section id="overview" className={styles.section}>
 			<section className={styles.inner}> 
 				{About.map((details, i) =>
-					<DetailCard key={i} title={details.title} desc={details.description}/>
+					<DetailCard key={i}>
+						{details}
+					</DetailCard>
 				)}
 			</section>
 		</section>
@@ -116,7 +117,7 @@ function InstructorCard(props) {
 	return (
 
 		<ScrollAnimation
-			style={{display: "inline-block", "vertical-align": "top"}}
+			style={{display: "inline-block", verticalAlign: "top"}}
 			animateIn='animate__animated animate__fadeIn'
 			animateOnce={Configs.animateOnce}
 		>

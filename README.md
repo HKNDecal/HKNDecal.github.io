@@ -51,7 +51,7 @@ npm install
 
 **Step 2.** Make sure the site behaves correctly using a local server. Run:
 ```bash
-gatsby develop
+npm run start
 ```
 
 The site can then be viewed in a browser at http://localhost:8000/. Any changes will be updated in the browser immediately after save.

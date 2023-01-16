@@ -64,15 +64,3 @@ npm run deploy
 ```
 
 This will update any changes made to the website to the production server. All changes, committed or otherwise, will be deployed.
-
-**Step 5.** Reconfiguring to point to decal.best
-
-Go to:
-https://github.com/HKNDecal/HKNDecal.github.io/settings
-Under GitHub Pages:
--> Custom domain:
-```bash
-decal.best
-```
-
-This step must be repeated each time the site is deployed.

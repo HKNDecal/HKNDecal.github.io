@@ -32,7 +32,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "start": "gatsby build && gatsby serve",
+    "deploy": "gatsby build  && echo \"decal.best\" > ./public/CNAME && gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",

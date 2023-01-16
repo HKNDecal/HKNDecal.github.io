@@ -35,6 +35,24 @@ const Officers = [
 			"Originally from france, but somehow has a spanish nickname"
 		]
 	},
+	{
+		"img": require('../images/instructors/anish-dhanashekar.jpg'),
+		"name": "Anish Dhanashekar",
+		"year": "2nd Year EECS",
+		"about": [
+			"Interested in Robotics, Machine Learning, Computer Architecture, and Chip Design",
+			"Enjoys custom manufacturing, from 3D-Printing to CNC Milling"
+		]
+	},
+	{
+		"img": require("../images/instructors/aniruddh-khanwale.jpg"),
+		"name": "Aniruddh-Khanwale",
+		"year": "4th Year EECS + MSE",
+		"about": [
+			"Interested in renewable energy, energy storage,  sensing, and hardware (especially low-level computing)",
+			"Once slept for 25 hours straight because he got 5 hours of sleep the night before"
+		]
+	}
 ];
 
 const Weeks = [
@@ -150,7 +168,7 @@ const About = [
 	},
 	{
 		"title": "How to Enroll",
-		"description": "Fill out our short google form: https://hkn.mu/decalapp. Please apply as soon as possible; applications will be processed on a first-come-first-serve basis. Please make sure to attend the first lecture, as we will be handling course codes based on attendance. If you cannot make the first class, send us an email."
+		"description": "Fill out our short google form: https://hkn.mu/decalapp by Friday 01/27. Please apply as soon as possible; applications will be processed on a first-come-first-serve basis. Please make sure to attend the first lecture, as we will be handling course codes based on attendance. If you cannot make the first class, send us an email."
 	},
 
 ];

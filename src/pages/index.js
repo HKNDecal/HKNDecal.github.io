@@ -6,7 +6,6 @@ import Sections from "../components/Sections.js"
 
 import * as styles from "../styles/index.module.css"
 
-
 export const Head = () => (
   <>
     <title>Going Down the EECS Stack</title>

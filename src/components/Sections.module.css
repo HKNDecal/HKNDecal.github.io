@@ -1,93 +1,94 @@
-.wrapper  {
-   /*margin-left: 50px;*/
+.wrapper {
+  /*margin-left: 50px;*/
 }
 
 .button {
-	border-radius: 50px;
-	margin: 0 20px 0 0;
+  border-radius: 50px;
+  margin: 0 20px 0 0;
 }
 
 .intro {
-	height: 600px;
-	display: table;
-	background-image: url("../images/background.jpg");
+  height: 600px;
+  display: table;
+  background-image: url("../images/background.jpg");
 }
 
 .introCard {
-    background-color: rgba(255, 255, 255, 0.4);
-    padding: 50px 20px;
-    border-radius: 5px; 
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 50px 20px;
+  border-radius: 5px;
 }
 
 .introContent {
-	display: table;
+  display: table;
 }
 
 .introLogo {
-	width: 150px;
-	height: 150px;
-	display: table-cell;
-    vertical-align: middle;
-	padding: 5px;
-	box-sizing: content-box;
+  width: 150px;
+  height: 150px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px;
+  box-sizing: content-box;
 }
 
 .section {
-	min-height: 500px;
-	display: table;
+  min-height: 500px;
+  display: table;
 }
 
 .inner {
-	padding: 50px;
-	display: table-cell;
-    vertical-align: middle;
+  padding: 50px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .classCard {
-	width: 950px;
-	padding: 10px;
-	margin: 10px;
-	border: lightgray solid 0.025em;
-	border-radius: 5px;
-	overflow: hidden;
-	transition: max-height 1s, color 0.2s, box-shadow 0.2s;
-	display: table;
+  width: 950px;
+  padding: 10px;
+  margin: 10px;
+  border: lightgray solid 0.025em;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: max-height 1s, color 0.2s, box-shadow 0.2s;
+  display: table;
 }
 
 .classCard:hover {
-	color: rgb(23, 152, 175);
-	box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.2);
+  color: rgb(23, 152, 175);
+  box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.2);
 }
 
 .classCardThumbnail {
-	display: table-cell;
+  display: table-cell;
 }
 
 .classCardImageContainer {
-	position: relative;
-	width: 320px;
-	height: 180px;
+  position: relative;
+  width: 320px;
+  height: 180px;
 }
 
 .classCardTText {
-	position: absolute;
-	width: 80%;
-	text-align: center;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%); 
-	color: white;
-	letter-spacing: 0.2em;
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  letter-spacing: 0.2em;
 }
 
-.classCardTText:before, .classCardTText:after {
-	border-radius: 0.2em;
-	content: '';
-	height: 0.2em;
-	position: absolute;
-	right: 10%;
-	width: 80%;
-	background-color: white;
+.classCardTText:before,
+.classCardTText:after {
+  border-radius: 0.2em;
+  content: "";
+  height: 0.2em;
+  position: absolute;
+  right: 10%;
+  width: 80%;
+  background-color: white;
 }
 
 .classCardTText:before {
@@ -99,86 +100,84 @@
 }
 
 .image {
-	/* This resizes the image to fit but preserve the aspect ratio. */
-	max-width: 100%;
-	max-height: 100%;
-	width: auto;
-	height: auto;
-	user-drag: none; 
-	user-select: none;
-	-moz-user-select: none;
-	-webkit-user-drag: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
+  /* This resizes the image to fit but preserve the aspect ratio. */
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .classCardContent {
-    vertical-align: top;
-	display: table-cell;
-	padding: 0px 10px;
+  vertical-align: top;
+  display: table-cell;
+  padding: 0px 10px;
 }
 
 .classCardTitle {
-	display: inline-block;
-	margin: 0 15px 0 0;
+  display: inline-block;
+  margin: 0 15px 0 0;
 }
 
 .classCardDescription {
-	font-size: 15px;
-	color: rgb(121, 121, 121);
+  font-size: 15px;
+  color: rgb(121, 121, 121);
 }
 
 .instructorCard {
-	display: inline-block;
-	width: 290px;
-	padding: 10px;
-	margin: 10px;
-	border: lightgray solid 0.025em;
-	border-radius: 10px;
-	overflow: hidden;
-	transition: max-height 1s, color 0.2s, box-shadow 0.2s;
+  display: inline-block;
+  width: 290px;
+  padding: 10px;
+  margin: 10px;
+  border: lightgray solid 0.025em;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: max-height 1s, color 0.2s, box-shadow 0.2s;
 }
 
 .instructorCard:hover {
-	color: orange;
-	box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.2);
+  color: orange;
+  box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.2);
 }
 
 .instructorList {
-	margin-left: 1.2em;
-	margin-bottom: 0;
-	padding-left: 0;
+  margin-left: 1.2em;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 @media screen and (max-width: 1250px) {
-	.classCard {
-		width: 100%;
-		padding: 0;
-	}
-
+  .classCard {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 830px) {
-	.introLogo {
-		display: none;
-	}
+  .introLogo {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 750px) {
-	.classCardThumbnail {
-		display: table-row;
-	}
-	.classCardContent {
-	    vertical-align: top;
-		display: table-cell;
-		/*padding: 0px;*/
-	}
+  .classCardThumbnail {
+    display: table-row;
+  }
+  .classCardContent {
+    vertical-align: top;
+    display: table-cell;
+    /*padding: 0px;*/
+  }
 }
 
 @media screen and (max-width: 650px) {
-	.inner {
-		padding: 0;
-		vertical-align: top;
-	}
+  .inner {
+    padding: 0;
+    vertical-align: top;
+  }
 }
-

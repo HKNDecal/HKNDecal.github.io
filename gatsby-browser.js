@@ -7,4 +7,4 @@
 // You can delete this file if you're not using it
 
 import "./src/styles/global.css"
-import "animate.css/animate.min.css";
+import "animate.css/animate.min.css"

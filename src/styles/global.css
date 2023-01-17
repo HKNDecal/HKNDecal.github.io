@@ -3,12 +3,12 @@ html {
 }
 
 body {
-	font-family: 'Lato', sans-serif;
-    line-height: 140%;
+  font-family: "Lato", sans-serif;
+  line-height: 140%;
 }
 
 @media screen and (max-width: 1000px) {
-	ul {
-	    padding-inline-start: 0px;
-	}
+  ul {
+    padding-inline-start: 0px;
+  }
 }

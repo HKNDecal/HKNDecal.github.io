@@ -1,5 +1,4 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 import Navigation from "../components/Navigation.js"
@@ -7,9 +6,14 @@ import Sections from "../components/Sections.js"
 
 import * as styles from "../styles/index.module.css"
 
-const IndexPage = () => <Index />
 
-class Index extends React.Component {
+export const Head = () => (
+  <>
+    <title>Going Down the EECS Stack</title>
+  </>
+)
+
+export default class Index extends React.Component {
   componentDidMount() {
     document.addEventListener("scroll", this.handleScroll)
   }
@@ -40,11 +44,6 @@ class Index extends React.Component {
   render() {
     return (
       <div>
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Going Down the EECS Stack</title>
-        </Helmet>
-
         <div className={styles.nav}>
           <Navigation />
         </div>
@@ -55,5 +54,3 @@ class Index extends React.Component {
     )
   }
 }
-
-export default IndexPage

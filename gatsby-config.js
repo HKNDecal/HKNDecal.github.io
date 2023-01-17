@@ -6,7 +6,6 @@ module.exports = {
   },
   pathPrefix: "/website",
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

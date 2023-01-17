@@ -2,7 +2,7 @@ import React from "react"
 
 const Officers = [
   {
-    img: require("../images/instructors/ashwin-ganesh.jpg"),
+    img: require("../images/instructors/ashwin-ganesh.jpg").default,
     name: "Ashwin Ganesh",
     year: "5th Year EECS MS",
     about: [
@@ -11,7 +11,7 @@ const Officers = [
     ],
   },
   {
-    img: require("../images/instructors/richel-dhaliwal.jpg"),
+    img: require("../images/instructors/richel-dhaliwal.jpg").default,
     name: "Richel Dhaliwal",
     year: "3rd Year EECS",
     about: [
@@ -20,7 +20,7 @@ const Officers = [
     ],
   },
   {
-    img: require("../images/instructors/albert-guo.jpg"),
+    img: require("../images/instructors/albert-guo.jpg").default,
     name: "Albert Guo",
     year: "2nd Year EECS",
     about: [
@@ -29,7 +29,7 @@ const Officers = [
     ],
   },
   {
-    img: require("../images/instructors/miguel-tenantdelatour.jpg"),
+    img: require("../images/instructors/miguel-tenantdelatour.jpg").default,
     name: "Miguel Tenant de La Tour",
     year: "4th Year EECS",
     about: [
@@ -38,7 +38,7 @@ const Officers = [
     ],
   },
   {
-    img: require("../images/instructors/anish-dhanashekar.jpg"),
+    img: require("../images/instructors/anish-dhanashekar.jpg").default,
     name: "Anish Dhanashekar",
     year: "2nd Year EECS",
     about: [
@@ -47,7 +47,7 @@ const Officers = [
     ],
   },
   {
-    img: require("../images/instructors/aniruddh-khanwale.jpg"),
+    img: require("../images/instructors/aniruddh-khanwale.jpg").default,
     name: "Aniruddh-Khanwale",
     year: "4th Year EECS + MSE",
     about: [
@@ -63,7 +63,7 @@ const Weeks = [
     title: "Introduction",
     description:
       "This week will provide a quick preliminary overview of what the course will be about, distribution of course materials, as well as an introduction to the course staff. If available, we will be inviting Professor Anant Sahai, our faculty sponsor, to come and speak to interested students about our class.",
-    image: require("../images/background.jpg"),
+    image: require("../images/background.jpg").default,
     slides: "",
   },
   {
@@ -72,7 +72,7 @@ const Weeks = [
     description:
       "Human-computer interaction is the subfield of computer science that focuses on the interactions that users have with computers. This class will mainly be about the User Interfaces which is what the user will directly interact with. We will also introduce the iterative design cycle, which is one of the primary methods for the prototyping and development of user interfaces.",
     lab: "Designing an App User Interface",
-    image: require("../images/background.jpg"),
+    image: require("../images/background.jpg").default,
     slides: "",
   },
   {
@@ -81,7 +81,7 @@ const Weeks = [
     description:
       "YouTube is one of the most iconic pieces of the modern internet. In this course, we will dissect the process of requesting a video, and playing it in the browser. This session will focus heavily on the mechanics of audio and graphics, as well as their representations. In addition, we will perform a simple overview of compression using various methods, such as Fourier transforms and wavelet compression.",
     lab: "Audio, video, and networking demonstration",
-    image: require("../images/background.jpg"),
+    image: require("../images/background.jpg").default,
     slides: "",
   },
   {
@@ -90,7 +90,7 @@ const Weeks = [
     description:
       "Machine Learning is the science of making software “learn.” We will introduce the big ideas behind machine learning and discuss how YouTube uses them to figure out which videos its users are more likely to watch. Along the way, we’ll gain some hands-on experience at designing and running your own learning algorithms.",
     lab: "YouTube Recommender System and Machine Learning Techniques",
-    image: require("../images/background.jpg"),
+    image: require("../images/background.jpg").default,
     slides: "",
   },
   {
@@ -99,7 +99,7 @@ const Weeks = [
     description:
       "While developers would like to write code that just does what it’s supposed to, the reality is that attackers have incentives to exploit loopholes in applications. This week we examine defenses against these attacks, including code security, network security, and web security. We will also study the tool that enables many of these defenses: cryptography, the study of algorithms that achieve certain guarantees in the presence of adversaries.",
     lab: "Network and Web Security",
-    image: require("../images/background.jpg"),
+    image: require("../images/background.jpg").default,
     slides: "",
   },
   {
@@ -108,7 +108,7 @@ const Weeks = [
     description:
       "Computer theory is the branch of computer science related to the mathematical study of computing. In this class we will cover three main areas of algorithms, complexity, and computability. We will cover several of the fundamental problems/ideas in computer theory such as the halting problem, P vs. NP, and the Church-Turing Thesis.",
     lab: "Computer Theory Puzzle Set",
-    image: require("../images/background.jpg"),
+    image: require("../images/background.jpg").default,
     slides: "",
   },
   {
@@ -117,7 +117,7 @@ const Weeks = [
     description:
       "Applications run by writing code, but that code doesn’t automagically run on the physical computer. This session will cover Operating Systems, Compilers, and Binary -- the translation and execution of code from human-readable format to computer-readable format. This session will also cover hardware device interfaces, such as network sockets and drivers",
     lab: "Simple Compiler for Circuits",
-    image: require("../images/background.jpg"),
+    image: require("../images/background.jpg").default,
     slides: "",
   },
   {
@@ -126,7 +126,7 @@ const Weeks = [
     description:
       "Applications run on top of hardware, which is typically a set of wires and gates. In this session, we will examine digital logic, memory units, and the hardware-software interface. We will also examine digital circuit design, clocking, and hardware-peripheral interfaces.",
     lab: "Logisim CPU",
-    image: require("../images/background.jpg"),
+    image: require("../images/background.jpg").default,
     slides: "",
   },
   {
@@ -135,7 +135,7 @@ const Weeks = [
     description:
       "We’ve taken this dive through how modern computing works, but there’s an essential missing component, measurement! The real world is not discrete or digital, but luckily analog circuits are here to save the day. We will learn how analog circuits turn signals into digital information for computers, build an inverter out of transistors, and explore digital logic through an analog view.",
     lab: "Inverters and Logic Gates",
-    image: require("../images/background.jpg"),
+    image: require("../images/background.jpg").default,
     slides: "",
   },
   {
@@ -144,7 +144,7 @@ const Weeks = [
     description:
       "Transistors are the building blocks of computers, but what exactly are transistors? This session will describe the physics behind how transistors work, in a qualitative, simple way. We will build up from the ideas of bonding in silicon to different charge carriers in semiconductors and finally MOSFETs. We will also explore power systems and renewable energy.",
     lab: "Visual simulations of MOSFETs (tentatively)",
-    image: require("../images/background.jpg"),
+    image: require("../images/background.jpg").default,
     slides: "",
   },
   {
@@ -153,7 +153,7 @@ const Weeks = [
     description:
       "So far, this course has focused primarily on the top-to-bottom stack of a typical computing device. This session will cover physical interaction with the external world, as well as feedback from the environment. We will examine the system used by the EE 16B robot, and also discuss other systems such as camera image stabilization.",
     lab: "Advanced Robotics, Camera Stabilizer",
-    image: require("../images/background.jpg"),
+    image: require("../images/background.jpg").default,
     slides: "",
   },
   {
@@ -162,7 +162,7 @@ const Weeks = [
     description:
       "The final session will provide an overarching unification of the topics covered in the course, with a review of how an application travels from the user interface to the wires. We will also cover non-technical aspects of EECS, such as ethics, morality, and policy.",
     lab: "Discussion of ethics in EECS",
-    image: require("../images/background.jpg"),
+    image: require("../images/background.jpg").default,
     slides: "",
   },
 ]

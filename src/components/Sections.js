@@ -1,6 +1,6 @@
 import React from "react"
 import { Card, Button } from "react-bootstrap"
-import ScrollAnimation from "react-animate-on-scroll"
+import { AnimationOnScroll } from "react-animation-on-scroll"
 import "animate.css/animate.min.css"
 
 import { Officers, Weeks, About, Configs } from "./data.js"
@@ -40,7 +40,7 @@ export function IntroSection() {
                 topic in totality, so no EE or CS experience is required.
               </p>
               <Button
-                variant="info"
+                variant="primary"
                 className={styles.button}
                 href="https://hkn.mu/decalapp"
               >
@@ -63,12 +63,12 @@ export function IntroSection() {
 
 function DetailCard(props) {
   return (
-    <ScrollAnimation
+    <AnimationOnScroll
       animateIn="animate__animated animate__fadeIn"
       animateOnce={Configs.animateOnce}
     >
       {props.children}
-    </ScrollAnimation>
+    </AnimationOnScroll>
   )
 }
 
@@ -86,7 +86,7 @@ export function OverviewSection() {
 
 function ClassCard(props) {
   return (
-    <ScrollAnimation
+    <AnimationOnScroll
       animateIn="animate__animated animate__fadeInUp"
       animateOnce={Configs.animateOnce}
     >
@@ -120,7 +120,7 @@ function ClassCard(props) {
           </div>
         </span>
       </div>
-    </ScrollAnimation>
+    </AnimationOnScroll>
   )
 }
 
@@ -138,7 +138,7 @@ export function ScheduleSection() {
 
 function InstructorCard(props) {
   return (
-    <ScrollAnimation
+    <AnimationOnScroll
       style={{ display: "inline-block", verticalAlign: "top" }}
       animateIn="animate__animated animate__fadeIn"
       animateOnce={Configs.animateOnce}
@@ -157,7 +157,7 @@ function InstructorCard(props) {
           </ul>
         </Card.Body>
       </Card>
-    </ScrollAnimation>
+    </AnimationOnScroll>
   )
 }
 

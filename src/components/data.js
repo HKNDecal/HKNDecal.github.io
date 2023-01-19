@@ -149,15 +149,6 @@ const Weeks = [
   },
   {
     number: 11,
-    title: "Embedded Systems and Controls",
-    description:
-      "So far, this course has focused primarily on the top-to-bottom stack of a typical computing device. This session will cover physical interaction with the external world, as well as feedback from the environment. We will examine the system used by the EE 16B robot, and also discuss other systems such as camera image stabilization.",
-    lab: "Advanced Robotics, Camera Stabilizer",
-    image: require("../images/background.jpg").default,
-    slides: "",
-  },
-  {
-    number: 12,
     title: "Conclusion/Ethics",
     description:
       "The final session will provide an overarching unification of the topics covered in the course, with a review of how an application travels from the user interface to the wires. We will also cover non-technical aspects of EECS, such as ethics, morality, and policy.",
@@ -187,7 +178,7 @@ const About = [
       interactive labs/demonstrations and lecture. In addition, staff will plan
       trips to various research labs or host talks by current researchers in
       applicable fields to provide deeper insight into various areas of
-      research. The syllabus itself covers 12 weeks of instruction, including
+      research. The syllabus itself covers 11 weeks of instruction, including
       guest lectures by either faculty or a current researcher, lab tours, and
       other activities!
     </p>

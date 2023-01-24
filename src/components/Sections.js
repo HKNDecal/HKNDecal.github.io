@@ -171,7 +171,7 @@ export function FacilitatorsSection() {
           semester!
         </p>
         <div>
-          {Officers.map((ta, i) => (
+          {Officers.sort((ta, tb) => ta.name.localeCompare(tb.name)).map((ta, i) => (
             <InstructorCard key={i} ta={ta} />
           ))}
         </div>

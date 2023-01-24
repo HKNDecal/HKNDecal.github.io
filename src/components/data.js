@@ -48,7 +48,7 @@ const Officers = [
   },
   {
     img: require("../images/instructors/aniruddh-khanwale.jpg").default,
-    name: "Aniruddh-Khanwale",
+    name: "Aniruddh Khanwale",
     year: "4th Year EECS + MSE",
     about: [
       "Interested in renewable energy, energy storage,  sensing, and hardware (especially low-level computing)",

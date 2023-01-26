@@ -131,19 +131,19 @@ const Weeks = [
   },
   {
     number: 9,
-    title: "Communications and Circuits",
+    title: "Electronic and Photonic Devices",
     description:
-      "We’ve taken this dive through how modern computing works, but there’s an essential missing component, measurement! The real world is not discrete or digital, but luckily analog circuits are here to save the day. We will learn how analog circuits turn signals into digital information for computers, build an inverter out of transistors, and explore digital logic through an analog view.",
-    lab: "Inverters and Logic Gates",
+      "Transistors are the building blocks of computers, but what exactly are transistors? This session will describe the physics behind how transistors work, in a qualitative, simple way. We will build up from the ideas of bonding in silicon to different charge carriers in semiconductors, MOSFETs, and LEDs. We will also explore power systems and renewable energy.",
+    lab: "Visual simulations of MOSFETs (tentatively)",
     image: require("../images/background.jpg").default,
     slides: "",
   },
   {
     number: 10,
-    title: "Power and Semiconductors",
+    title: "Embedded Systems & Robotics",
     description:
-      "Transistors are the building blocks of computers, but what exactly are transistors? This session will describe the physics behind how transistors work, in a qualitative, simple way. We will build up from the ideas of bonding in silicon to different charge carriers in semiconductors and finally MOSFETs. We will also explore power systems and renewable energy.",
-    lab: "Visual simulations of MOSFETs (tentatively)",
+      "Personal computers aren't the only kind of devices powering our modern world. In this session, we will look deeper into other applications such as embedded systems, IoT devices, and robotics.",
+    lab: "TBD",
     image: require("../images/background.jpg").default,
     slides: "",
   },

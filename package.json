@@ -33,7 +33,7 @@
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build  && echo \"decal.best\" > ./public/CNAME && gh-pages -d public -b master",
+    "deploy": "gatsby build  && echo \"decal.best\" > ./public/CNAME && echo \"Check out the `dev` branch :)\" > ./public/README && gh-pages -d public -b master",
     "format": "prettier . --write"
   },
   "repository": {

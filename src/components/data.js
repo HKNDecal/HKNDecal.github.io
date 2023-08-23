@@ -2,18 +2,18 @@ import React from "react"
 
 const Officers = [
   {
-    img: require("../images/instructors/ashwin-ganesh.jpg").default,
-    name: "Ashwin Ganesh",
-    year: "5th Year EECS MS",
+    img: require("../images/instructors/alex.jpg").default,
+    name: "Alex Sanchez",
+    year: "4th Year EECS",
     about: [
-      "Interested in deep learning, computer vision, natural language processing, and training models for robustness/sparsity",
-      "Passionate about electronic music, working out, and traveling",
+      "Born in Mexico, got lost and somehow ended up here in California",
+      "Loves learning new languages and has a 100+ day streak in Duolingo",
     ],
   },
   {
     img: require("../images/instructors/richel-dhaliwal.jpg").default,
     name: "Richel Dhaliwal",
-    year: "3rd Year EECS",
+    year: "4th Year EECS",
     about: [
       "Interested in computer architecture and exploring computer science fields in general",
       "Accidentally hit a tennis ball with my hand instead of my racket once during a tennis match and it actually went over the net",
@@ -22,37 +22,37 @@ const Officers = [
   {
     img: require("../images/instructors/albert-guo.jpg").default,
     name: "Albert Guo",
-    year: "2nd Year EECS",
+    year: "3rd Year EECS",
     about: [
       "Interested in quant finance and machine learning",
       "Plays tft and tennis",
     ],
   },
   {
-    img: require("../images/instructors/miguel-tenantdelatour.jpg").default,
-    name: "Miguel Tenant de La Tour",
-    year: "4th Year EECS",
-    about: [
-      "Interested in compilers, programming languages, and anything framework-level",
-      "Originally from France, but somehow has a Spanish name",
-    ],
-  },
-  {
-    img: require("../images/instructors/anish-dhanashekar.jpg").default,
-    name: "Anish Dhanashekar",
+    img: require("../images/instructors/ws.jpg").default,
+    name: "Widyadewi Soedarmadji",
     year: "2nd Year EECS",
     about: [
-      "Interested in Robotics, Machine Learning, Computer Architecture, and Chip Design",
-      "Enjoys custom manufacturing, from 3D-Printing to CNC Milling",
+      "Interested in robotics, deep learning, and artificial intelligence",
+      "I enjoy music, photography, baking, and singing",
     ],
   },
   {
-    img: require("../images/instructors/aniruddh-khanwale.jpg").default,
-    name: "Aniruddh Khanwale",
-    year: "4th Year EECS + MSE",
+    img: require("../images/instructors/erikkizior.jpg").default,
+    name: "Erik Kizior",
+    year: "3rd Year EECS",
     about: [
-      "Interested in renewable energy, energy storage,  sensing, and hardware (especially low-level computing)",
-      "Once slept for 25 hours straight because he got 5 hours of sleep the night before",
+      "Interested in CS education and machine learning",
+      "Casual enjoyer of Super Smash Bros",
+    ],
+  },
+  {
+    img: require("../images/instructors/aakarsh.jpg").default,
+    name: "Aakarsh Vermani",
+    year: "2nd Year EECS",
+    about: [
+      "I'm interested in machine learning, quantum computing, robotics, and data science",
+      "I like solving crossword puzzles",
     ],
   },
 ]

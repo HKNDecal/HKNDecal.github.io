@@ -20,6 +20,24 @@ const Officers = [
     ],
   },
   {
+    img: require("../images/instructors/jiayang.png").default,
+    name: "Jiayang Wang",
+    year: "2nd Year EECS",
+    about: [
+      "Interested in artificial intelligence and machine learning",
+      "I usually play the role of musical instrument noises during our acapella performance",
+    ],
+  },
+  {
+    img: require("../images/instructors/dylan.jpg").default,
+    name: "Dylan Stalcup",
+    year: "2nd Year EECS",
+    about: [
+      "Interested in ML",
+      "I play the bass and saxophone",
+    ],
+  },
+  {
     img: require("../images/instructors/albert-guo.jpg").default,
     name: "Albert Guo",
     year: "3rd Year EECS",

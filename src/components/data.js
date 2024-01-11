@@ -2,75 +2,30 @@ import React from "react"
 
 const Officers = [
   {
-    img: require("../images/instructors/alex.jpg").default,
-    name: "Alex Sanchez",
-    year: "4th Year EECS",
+    img: require("../images/decal-logo.png").default,
+    name: "Bryan Ngo",
+    year: "Nth Year EECS",
     about: [
-      "Born in Mexico, got lost and somehow ended up here in California",
-      "Loves learning new languages and has a 100+ day streak in Duolingo",
+      "I love Decal!",
+      "I love Decal!",
     ],
   },
   {
-    img: require("../images/instructors/richel-dhaliwal.jpg").default,
-    name: "Richel Dhaliwal",
-    year: "4th Year EECS",
+    img: require("../images/decal-logo.png").default,
+    name: "Eren Saglam",
+    year: "Nth Year EECS",
     about: [
-      "Interested in computer architecture and exploring computer science fields in general",
-      "Accidentally hit a tennis ball with my hand instead of my racket once during a tennis match and it actually went over the net",
+      "I love Decal!",
+      "I love Decal!",
     ],
   },
   {
-    img: require("../images/instructors/jiayang.png").default,
-    name: "Jiayang Wang",
-    year: "2nd Year EECS",
+    img: require("../images/decal-logo.png").default,
+    name: "Omar Yu",
+    year: "Nth Year EECS",
     about: [
-      "Interested in artificial intelligence and machine learning",
-      "I usually play the role of musical instrument noises during our acapella performance",
-    ],
-  },
-  {
-    img: require("../images/instructors/dylan.jpg").default,
-    name: "Dylan Stalcup",
-    year: "2nd Year EECS",
-    about: [
-      "Interested in ML",
-      "I play the bass and saxophone",
-    ],
-  },
-  {
-    img: require("../images/instructors/albert-guo.jpg").default,
-    name: "Albert Guo",
-    year: "3rd Year EECS",
-    about: [
-      "Interested in quant finance and machine learning",
-      "Plays tft and tennis",
-    ],
-  },
-  {
-    img: require("../images/instructors/ws.jpg").default,
-    name: "Widyadewi Soedarmadji",
-    year: "2nd Year EECS",
-    about: [
-      "Interested in robotics, deep learning, and artificial intelligence",
-      "I enjoy music, photography, baking, and singing",
-    ],
-  },
-  {
-    img: require("../images/instructors/erikkizior.jpg").default,
-    name: "Erik Kizior",
-    year: "3rd Year EECS",
-    about: [
-      "Interested in CS education and machine learning",
-      "Casual enjoyer of Super Smash Bros",
-    ],
-  },
-  {
-    img: require("../images/instructors/aakarsh.jpg").default,
-    name: "Aakarsh Vermani",
-    year: "2nd Year EECS",
-    about: [
-      "I'm interested in machine learning, quantum computing, robotics, and data science",
-      "I like solving crossword puzzles",
+      "I love Decal!",
+      "I love Decal!",
     ],
   },
 ]
@@ -216,7 +171,7 @@ const About = [
     <p>
       Fill out our short interest form:{" "}
       <a href="https://hkn.mu/decalapp">https://hkn.mu/decalapp</a> by{" "}
-      <span style={{ fontWeight: "bold" }}>Friday 09/08</span>. Please apply as
+      <span style={{ fontWeight: "bold" }}>Friday, January 26 (1/26)</span>. Please apply as
       soon as possible; applications will be processed on a
       first-come-first-serve basis. Please make sure to attend the first
       lecture, as we will be handling course codes based on attendance. If you

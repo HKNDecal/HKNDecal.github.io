@@ -39,6 +39,9 @@ export function IntroSection() {
                 courses and subfields within the major. We aim to cover each
                 topic in totality, so no EE or CS experience is required.
               </p>
+              <p>
+                If you have any questions, please feel free to reach us at decal@hkn.eecs.berkeley.edu!
+              </p>
               <Button
                 variant="primary"
                 className={styles.button}

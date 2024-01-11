@@ -175,7 +175,7 @@ const About = [
       soon as possible; applications will be processed on a
       first-come-first-serve basis. Please make sure to attend the first
       lecture, as we will be handling course codes based on attendance. If you
-      cannot make the first class, send us an email.
+      cannot make the first class, send us an email at decal@hkn.eecs.berkeley.edu.
     </p>
   </>,
 ]

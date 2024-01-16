@@ -47,7 +47,7 @@ export function IntroSection() {
                 className={styles.button}
                 href="https://hkn.mu/decalapp"
               >
-                Enroll Now!
+                Apply Now!
               </Button>
               <Button
                 variant="secondary"

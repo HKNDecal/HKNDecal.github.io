@@ -3,8 +3,8 @@ import React from "react"
 const Officers = [
   {
     img: require("../images/decal-logo.png").default,
-    name: "Bryan Ngo",
-    year: "Nth Year EECS",
+    name: "Isak Traustason",
+    year: "4th Year EECS",
     about: [
       "I love Decal!",
       "I love Decal!",
@@ -12,17 +12,8 @@ const Officers = [
   },
   {
     img: require("../images/decal-logo.png").default,
-    name: "Eren Saglam",
-    year: "Nth Year EECS",
-    about: [
-      "I love Decal!",
-      "I love Decal!",
-    ],
-  },
-  {
-    img: require("../images/decal-logo.png").default,
-    name: "Omar Yu",
-    year: "Nth Year EECS",
+    name: "Zachary McMullan",
+    year: "2nd Year EECS",
     about: [
       "I love Decal!",
       "I love Decal!",

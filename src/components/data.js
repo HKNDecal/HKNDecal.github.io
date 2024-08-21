@@ -7,7 +7,6 @@ const Officers = [
     year: "4th Year EECS",
     about: [
       "I love Decal!",
-      "I love Decal!",
     ],
   },
   {
@@ -15,7 +14,6 @@ const Officers = [
     name: "Zachary McMullan",
     year: "2nd Year EECS",
     about: [
-      "I love Decal!",
       "I love Decal!",
     ],
   },
@@ -162,7 +160,7 @@ const About = [
     <p>
       Fill out our short interest form:{" "}
       <a href="https://hkn.mu/decalapp">https://hkn.mu/decalapp</a> by{" "}
-      <span style={{ fontWeight: "bold" }}>Friday, January 26 (1/26)</span>. Please apply as
+      <span style={{ fontWeight: "bold" }}>Friday, September 6 (9/6)</span>. Please apply as
       soon as possible; applications will be processed on a
       first-come-first-serve basis. Please make sure to attend the first
       lecture, as we will be handling course codes based on attendance. If you

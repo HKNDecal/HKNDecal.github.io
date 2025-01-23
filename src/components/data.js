@@ -160,7 +160,7 @@ const About = [
     <p>
       Fill out our short interest form:{" "}
       <a href="https://hkn.mu/decalapp">https://hkn.mu/decalapp</a> by{" "}
-      <span style={{ fontWeight: "bold" }}>Friday, September 6 (9/6)</span>. Please apply as
+      <span style={{ fontWeight: "bold" }}>Friday, January 31 (1/31)</span>. Please apply as
       soon as possible; applications will be processed on a
       first-come-first-serve basis. Please make sure to attend the first
       lecture, as we will be handling course codes based on attendance. If you

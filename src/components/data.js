@@ -17,6 +17,30 @@ const Officers = [
       "I love Decal!",
     ],
   },
+  {
+    img: require("../images/decal-logo.png").default,
+    name: "Varun Bharadwaj",
+    year: "4th Year EECS",
+    about: [
+      "I love Decal!",
+    ],
+  },
+  {
+    img: require("../images/decal-logo.png").default,
+    name: "Sneha Muppalla",
+    year: "1st Year EECS",
+    about: [
+      "I love Decal!",
+    ],
+  },
+  {
+    img: require("../images/decal-logo.png").default,
+    name: "Simon Starbuck",
+    year: "2nd Year EECS",
+    about: [
+      "I love Decal!",
+    ],
+  },
 ]
 
 const Weeks = [
@@ -160,7 +184,8 @@ const About = [
     <p>
       Fill out our short interest form:{" "}
       <a href="https://hkn.mu/decalapp">https://hkn.mu/decalapp</a> by{" "}
-      <span style={{ fontWeight: "bold" }}>Friday, January 31 (1/31)</span>. Please apply as
+      <span style={{ fontWeight: "bold" }}>Friday, January 31 (1/31). Lectures 
+      will be every Tuesday from 6:00-8:00 PM at Dwinelle 79</span>. Please apply as
       soon as possible; applications will be processed on a
       first-come-first-serve basis. Please make sure to attend the first
       lecture, as we will be handling course codes based on attendance. If you

@@ -3,7 +3,15 @@ import React from "react"
 const Officers = [
   {
     img: require("../images/decal-logo.png").default,
-    name: "Isak Traustason",
+    name: "Neel Gajare",
+    year: "3rd Year EECS",
+    about: [
+      "I love Decal!",
+    ],
+  },
+  {
+    img: require("../images/decal-logo.png").default,
+    name: "Ryan Lee",
     year: "4th Year EECS",
     about: [
       "I love Decal!",
@@ -11,15 +19,15 @@ const Officers = [
   },
   {
     img: require("../images/decal-logo.png").default,
-    name: "Zachary McMullan",
-    year: "2nd Year EECS",
+    name: "Andy Seymour",
+    year: "5th Year EECS",
     about: [
       "I love Decal!",
     ],
   },
   {
     img: require("../images/decal-logo.png").default,
-    name: "Varun Bharadwaj",
+    name: "Vijay Sharma",
     year: "4th Year EECS",
     about: [
       "I love Decal!",
@@ -27,16 +35,8 @@ const Officers = [
   },
   {
     img: require("../images/decal-logo.png").default,
-    name: "Sneha Muppalla",
-    year: "1st Year EECS",
-    about: [
-      "I love Decal!",
-    ],
-  },
-  {
-    img: require("../images/decal-logo.png").default,
-    name: "Simon Starbuck",
-    year: "2nd Year EECS",
+    name: "Courtney Langdon",
+    year: "4nd Year EECS",
     about: [
       "I love Decal!",
     ],

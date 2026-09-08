@@ -184,8 +184,8 @@ const About = [
     <p>
       Fill out our short interest form:{" "}
       <a href="https://hkn.mu/decalapp">https://hkn.mu/decalapp</a> by{" "}
-      <span style={{ fontWeight: "bold" }}>Friday, January 31 (1/31). Lectures 
-      will be every Tuesday from 6:00-8:00 PM at Dwinelle 79</span>. Please apply as
+      <span style={{ fontWeight: "bold" }}>Thursday, September 10 (9/10). Lectures
+      will be every Thursday from 5:00-7:00 PM at Dwinelle 106</span>. Please apply as
       soon as possible; applications will be processed on a
       first-come-first-serve basis. Please make sure to attend the first
       lecture, as we will be handling course codes based on attendance. If you

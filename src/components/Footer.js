@@ -32,7 +32,6 @@ export default function Footer() {
           <Col xs={6} md={3}>
             <h6>Our Offices</h6>
             <p>290 Cory Hall | (510) 642-7346</p>
-            <p>345 Soda Hall | (510) 642-9952</p>
           </Col>
         </Row>
       </Container>

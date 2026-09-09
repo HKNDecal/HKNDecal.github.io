@@ -36,7 +36,7 @@ const Officers = [
   {
     img: require("../images/decal-logo.png").default,
     name: "Courtney Langdon",
-    year: "4nd Year EECS",
+    year: "4th Year EECS",
     about: [
       "I love Decal!",
     ],
